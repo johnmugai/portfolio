@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMC portfolio</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+           width: 100%; 
+           /* background-color: burlywood; */
+           background-position: center;
+           background-size: cover;
+           height: 100vh;
+           position: relative;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        .navbar{
+            width: 86%;
+            display: flex;
+            margin: auto;
+            padding: 15px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .navbar .logo{
+            width: 160px;
+            cursor: pointer;
+            margin-top: -1%;
+            margin-left: -2%;
+        }
+        ul{
+            margin-top: -4%;
+        }
+        ul li{
+            list-style: none;
+            display: inline-block;
+            padding: 10px 16px;
+        }
+        ul li a{
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: blueviolet;
+            margin-top: -3%;
+            transition: .4s ease;
+
+        }
+        ul li a:hover{
+            color: chartreuse;
+        }
+        .info{
+            margin-left: 7%;
+            margin-top: 6%;
+        }
+        .info h2{
+            font-size: 20px;
+            color: deeppink;
+        }
+        .info h3{
+            font-size: 18px;
+            letter-spacing: 1px;
+            line-height: 24px;
+        }
+        .info span{
+            color: cyan;
+        }
+        .info a{
+            text-decoration: none;
+            color: #fff;
+            background: black;
+            margin: 26px 0;
+            padding: 10px 18px;
+            border-radius: 10px;
+            display: inline-block;
+            transition: .4s ease;
+        }
+        .info a:hover{
+            background: rgb(59,174,209);
+        }
+        .image{
+            width: 30%;
+            height: 60%;
+            position: absolute;
+            right: 100px;
+            bottom: 0;
+        }
+        .image img{
+            position: absolute;
+            /* height: 140px; */
+            left: 40%;
+            transform: translate(-50%);
+            bottom: 0;
+            transition: left 2s ease;
+        }
+        .image:hover .myself{
+            /* left: 55%; */
+        }
+        .icons ion-icon{
+            margin-left: 7%;
+            color: #000;
+            margin-right: -60px;
+            font-size: 40px;
+            transition: .4s ease;
+        }
+        .icons ion-icon:hover{
+            color: rgb(59,174,209);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="navbar">
+        <img src="pic/logo3.png" alt="logo" class="logo">
+        <ul>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Education & Work Experience</a></li>
+            <li><a href="https://1drv.ms/b/s!AlDIXgbfjbwwkSqY_kZu0lJb59Ag?e=1gRMdz">Download CV</a></li>
+        </ul>
+    </div>
+  <div class="info">
+    <h3>Hello, I'm <span>John</span></h3>
+    <h2><span>B</span>usiness <span>I</span>nformation <span>T</span>echnology expert from Murang'a.</h2>
+    <h3>I do websites development for businesses and individuals. <br>I also have great interests in finance.</h3>
+    
+  </div>  
+  <div class="image">
+    <img src="pic/testimonial-bg.png" alt="" class="myself">
+  </div><br>
+  <div class="icons">
+<a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+<a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+<a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+  </div>
+</div>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+</body>
+</html>

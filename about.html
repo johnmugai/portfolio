@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JMC Portfolio</title>
+    <style>
+  
+      h1{
+  text-align: center;
+  color: green;
+}
+* {
+  box-sizing: border-box;
+}
+span{
+  color: red;
+}
+
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+    color: blueviolet;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="row">
+          <div class="column">
+            <img src="pic/IMG_20210823_160920.jpg" style="width:100%">
+          </div>
+          <div class="column">
+       <h4><span>Name:</span>  John Mugai Chege</h4>
+       <h4><span>Nationality:</span>Nationality: Kenyan</h4>
+       <h4><span>ID No:</span> 36940778</h4>
+       <h4><span>County of birth:</span> Murang'a</h4>
+       <h4><span>Marital status:</span> Single</h4>
+       <h4><span>Highest level of education acquired:</span> Bachelors of Business Information Technology</h4>
+       <h4><span>Skills:</span><ul>
+        <li>Web development in HTML, CSS, Javascript, and PHP</li><br> 
+        <li>Skills in Python, SQL, and SPSS </li><br>
+        <li>Experience in data visualization and automation tools such as Power BI, Power Query, and Tableau</li><br>
+        <li>Proficiency in Ms Office</li>
+    </ul> </h4>
+       <h4><span>Other qualifications:</span> Financial Modeling and Valuation Analyst</h4>
+
+            
+          </div>
+        </div>
+      </div>
+</body>
+<!-- <footer>
+  <p>&copy; 2023 Copyright reserved to TechDoctor</p>
+</footer> -->
+</html>
